@@ -83,6 +83,15 @@ TagLib# is available on GitHub: <https://github.com/mono/taglib-sharp>
 * **Git:**      Get the source at <git://github.com/mono/taglib-sharp.git>
 
 
+## Installation From NuGet
+
+TagLib# is available on NuGet: <https://www.nuget.org/packages/TagLibSharp>
+
+Install from package manager:
+
+PM> Install-Package TagLibSharp -Version 2.2.0
+
+
 ## Building and Running
 
 ### Command Line  (Linux)
@@ -120,9 +129,11 @@ You can open it in Visual Studio by using taglib-sharp.sln
 1. Ensure NuGet packages have been restored
     1. See: <https://docs.microsoft.com/en-us/nuget/consume-packages/package-restore>
 2. In Visual Studio, go to menu: Tools > Extensions and Updates > Online
+   (In Visual Studio 2019, use Extensions > Manage Extensions)
 3. Search: Nunit 3 Test Adapter
 4. Download and install it
 5. Open from menu: Test > Windows > Test Explorer
+   (In Visual Studio 2019, use Test > Test Explorer)
 6. You can run your tests from this panel (*not* using the "Start" button)
 7. You can debug your tests from this panel:
    1. Double click on a test. Set some breakpoints in the test in the editor panel.
@@ -134,7 +145,6 @@ You can open it in Visual Studio by using taglib-sharp.sln
     (Right-click on the project, select: "Set as StartUp Project")
 2. Just modify the "Program.cs"
 3. Set some breakpoints and hit the "Start" button
-
 
 
 ## They also use TagLib#
